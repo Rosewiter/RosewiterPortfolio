@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
+  padding: 120px;
 }
 .navbar .brand-title {
   width: 110px;
@@ -194,6 +195,9 @@ body {
   width: 80%;
   margin-bottom: 180px;
   margin-top: 180px;
+}
+.design-solutions{
+font-weight: 400;
 }
 
 .toolkit-section {
