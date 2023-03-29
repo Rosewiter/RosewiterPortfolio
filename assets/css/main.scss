@@ -1,0 +1,409 @@
+@import './variables';
+@import './resets';
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+
+    .brand-title{
+        width: 110px;
+    }
+
+    .toggle-button{
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+
+        .bar{
+            height: 3px;
+            width: 100%;
+            background-color: #CD533B;
+            border-radius: 10px;
+        }
+    }
+
+.navbar-links{
+    display: none;
+   width: 100%;
+
+   &.active{
+    display: flex;
+   }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 10px;
+        li{
+            list-style: none;
+            text-align: right;
+            
+            a{
+                color: white;
+                text-decoration: none;
+
+                &.active{
+                    color: #CD533B;
+                    font-weight: 800;
+                }
+
+                &:hover{
+                    color: #CD533B;
+                }
+            }
+        }
+    }
+}
+}
+
+body{
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+.bilboard-section{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .uiux-img{
+    width: 800px;
+    }
+
+    span{
+        font-family: 'cumiskat_regular';
+        color: #CD533B;
+    }
+
+    p{
+        width: 56%;
+    }
+}
+
+.aboutme-section{
+    background-color: rgb(14, 14, 14);
+    color: $txt-color;
+    padding: 120px;
+
+    button{
+        background-color: #f75a0b;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        width: 155px;
+        height: 45px;
+        font-weight: 500;
+    }
+
+    .aboutlines{
+        margin-bottom: 70px;
+    }
+
+    p{
+        width: 79%;
+    }
+
+    h2{
+        span{
+            color: #f75a0b;
+        }
+        font-size: 55px;
+    }
+}
+
+.portfolio-section{
+    padding: 120px;
+    background-color: rgb(14, 14, 14);
+
+    h4{
+        color: white;
+    }
+
+    .rect-all-orange{
+    background-image: url(/assets/images/Rectangle245.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+    
+    .inside-image{
+    position: absolute;
+    }
+
+    }
+}
+
+.portfolio-bilboard{
+    background-color: rgb(14, 14, 14);
+    color: $txt-color;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bannerimg{
+        width: 700px;
+        margin-bottom: 120px;
+    }
+
+    p{
+        width: 90%;
+    }
+
+    .main-header{
+        margin-bottom: 10px;
+    }
+
+.color-schemes{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    
+    .rect1{
+        background-color: orange;
+        width: 100px;
+        height: 40px;
+        border: 1px solid black;
+    }
+
+    .rect2{
+        background-color: #ffffff;
+        width: 100px;
+        height: 40px;
+        border: 1px solid black;
+    }
+
+    .rect3{
+        background-color: black;
+        width: 100px;
+        height: 40px;
+        border: 1px solid white;
+    }
+
+    .rect4{
+        background-color: #CD533B;
+        width: 100px;
+        height: 40px;
+        border: 1px solid #ffffff;
+    }
+
+    .rect5{
+        background-color: #ffffff;
+        width: 100px;
+        height: 40px;
+        border: 1px solid black;
+    }
+
+    .rect6{
+        background-color: #435756;
+        width: 100px;
+        height: 40px;
+        border: 1px solid black;
+    }
+}
+
+hr{
+    background-color: #CD533B;
+    opacity: 100%;
+    border: none;
+    height: 5px;
+    width: 80%;
+
+    margin-bottom: 180px;
+    margin-top: 180px;
+}
+
+}
+
+.toolkit-section{
+    background-image: url(/assets/images/Rectangle\ print\ 273.png);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+
+    .toolkits{
+        display: flex;
+        gap: 20px;
+        color: white;
+        .tolkiticon1{
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    .all-toolkits{
+        display: flex;
+        justify-content: space-between;
+        padding: 120px;
+    }
+
+}
+
+.footer{
+    padding: 120px;
+    height: 79vh;
+    background-color: black;
+    color: white;
+
+    .social-ico{
+    display: flex;    
+    gap: 16px;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .menu-logo{
+        margin-bottom: 30px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        input{
+            padding: 10px;
+            color: $txt-color;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            background-color: rgb(56, 57, 57);
+            border: none;
+        }
+
+        textarea{
+            padding: 10px;
+            background-color: rgb(56, 57, 57);
+            border: none;
+            width: 90%;
+        }
+
+        button{
+            background-color: #f75a0b;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            width: 155px;
+            height: 45px;
+            font-weight: 500;
+        }
+    }
+
+    h5,h6{
+        line-height: 40px;
+        li{
+            list-style: none;
+            
+            a{
+                text-decoration: none;
+                color: white;
+
+                &:hover{
+                    color: #CD533B;
+                }
+            }
+        }
+    }
+
+    
+}
+
+/* kkks */
+
+.portfolio{
+    display: flex; 
+    flex-direction: column;
+    padding-top: 180px;
+    padding-left: 230px;
+
+    .portfolio-headtxt{
+        padding-left: 400px;
+        margin-bottom: 110px;
+        }
+
+        .portfolio-rect{
+            width: 90%; 
+            height: 100%;
+            padding-top: 50px;  
+           }
+
+           .portfolio-rect2{
+            width: 90%; 
+            height: 100%;
+          position: relative;
+          bottom: 200px;
+           }       
+           .portfolio-rect3{
+            width: 90%; 
+            height: 100%;
+          position: relative;
+          bottom: 460px;
+           }
+        .portfolio-image1{
+         width: 440px;
+         position: relative; 
+        z-index: 1;
+        bottom: 420px;
+        right: 90px;
+         } 
+         .portfolio-image1txt{
+        width: 440px;
+        position: relative; 
+        bottom: 420px;
+        right: 90px;
+        color: white;
+            } 
+        .portfolio-image2txt{
+        width: 440px;
+        position: relative; 
+        bottom: 420px;
+        left: 50px;
+        color: white;
+        } 
+        .portfolio-heading{
+        padding-left: 380px;
+        }
+        .lines2{
+         position: relative;
+         left: 40px;   
+        }
+        .project-name{
+        position: relative; 
+        bottom: 20px;  
+        }
+        .portfolio-image2{
+            width: 350px;
+            position: relative; 
+           z-index: 1;
+           bottom: 430px;
+           left: 100px;
+         
+        }
+    
+   }
+ 
+ 
+
+
+   
+

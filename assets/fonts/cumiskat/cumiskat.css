@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'cumiskat_regular';
+    src: url('Cumiskat.otf') format('otf'),
+         url('Cumiskat.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
