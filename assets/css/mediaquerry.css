@@ -1,0 +1,74 @@
+@media (max-width: 768px){
+.billboard-rose{
+margin-left: 100px;
+}
+.my-name{
+  width: 700px;
+  position: relative;
+  left: 30px;
+}
+.bilboard-section p{
+  width: 500px;
+  position: relative;
+  left: 30px;
+}
+.about-image{
+position: relative;
+bottom: 150px;
+}
+.aboutme-section p{
+width: 600px;
+}
+.portfolio-heading{
+position: relative;
+right: 400px;
+bottom: 50px;
+}
+.uiux-img{
+ width: 160px;  
+ position: relative;
+ left: 30px;
+}
+.about-me-h3{
+  width: 400px;
+}
+.portfolio-image2txt{
+position: relative;
+top: 350px;
+margin-left: 50px;
+
+}
+.portfolio .portfolio-image2{
+  position: relative;
+bottom: 535px;
+
+}
+.portfolio .portfolio-rect2{
+  position: relative;
+top: 390px;
+}
+.portfolio .portfolio-rect{
+  width: 500px;
+  height: 400px;
+}
+
+.text2{
+position: relative;
+right: 190px;
+bottom: 130px;
+}
+.p-txt-port{
+ width: 450px; 
+}
+.toolkit-section .toolkits{
+ gap: 2px; 
+}
+.toolkit-section{
+ position: relative;
+ bottom: 660px; 
+}
+.footer{
+ margin-bottom: 600px
+ ; 
+}
+}

@@ -5,51 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+   <link rel="stylesheet" href="./assets/css/back01.css">
+   <link rel="stylesheet" href="./assets/css/mediaquerry.css">
     <link rel="stylesheet" href="./assets/fonts/cumiskat/cumiskat.css">
     <title>Home</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="brand-title"><img src="./assets/images/my logo.png" alt="" class="img-fluid"></div>
 
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        
-        <div class="navbar-links">
-            <ul>
-                <li><a class="active" href="./index.html">Home</a></li>
-                <li><a href="./myPortfolio.html">Portfolio</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-    <section class="bilboard-section">
+   <!--nav part-->
+
+<div class="nav">
+    <div class="brand-title"><img src="./assets/images/my logo.png" alt="" class="img-fluid logo"></div>
         <div>
-            <h3>Hello, my name is <span>Rosewiter Mvundura</span></h3>
-            <img src="./assets/images/UI DESIGNER.png" alt="" class="img-fluid uiux-img">
-            <p>With a love for all things creative and colourful. I have a keen eve for detail
-                and enjoy bringing my artistic acumen to life through digital design.</p>
-        </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar-middle"></span>
+                <span class="bar"></span>
+            </a>
+                
+            <div class="navbar-links">
+                <ul>
+                     <li><a class="active" href="#"> Home</a></li>
+                        <li><a href="#aboutme">About</a></li>
+                        <li><a href="./">Portfolio</a></li>
+                        <li><a href="#footer-me">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
 
+   <!--billboard section-->
+
+    <section class="bilboard-section">
+        <div class="billboard">
+            <h3 class="my-name">Hello, my name is <span>Rosewiter Mvundura</span></h3>
+                <img src="./assets/images/UI DESIGNER.png" alt="" class="img-fluid uiux-img">
+            <p>With a love for all things creative and colourful. I have a keen eve for detail
+             and enjoy bringing my artistic acumen to life through digital design.</p>
+             </div>
     </section>
 
-    <section class="aboutme-section">
+     <!--about me section-->
+
+    <section class="aboutme-section" id="aboutme">
         <div class="row">
             <div class="col-lg-5">
-                <img src="./assets/images/about imagepng.png" alt="" class="img-fluid">
+                <img src="./assets/images/about imagepng.png" alt="" class="img-fluid about-image">
             </div>
             
-            <div class="col-lg-7">
+            <div class="col-lg-7 about-txt-section">
                 <div>
                     <h2><span>About</span> Me</h2>
-                    <img src="./assets/images/lines my portfolio.png" alt="" class="img-fluid aboutlines">
+                        <div class="about-lines">
+                            <img src="./assets/images/footer-icons/line without print.png" alt="" class="line-printed">
+                        <img src="./assets/images/footer-icons/line with print.png" alt="" class="line-no-print">
+                    </div>
                 </div>
-                <p>My journey as a designer began when I realised that I wanted to
+            <p>My journey as a designer began when I realised that I wanted to
                     create more than just pretty pictures. I wanted to make an impact
                     through my designs by making them not only beautiful but also
                     functional, intuitive and user-friendly. My approach to design is
@@ -69,13 +81,19 @@
     </section>
 
 </section>
+
+     <!--portfolio section-->
+
 <section class="portfolio">
     <div class="portfolio-heading">
     <h2 class="about-me-h3">My <span class="me">Portfolio</span></h2></h2> 
-        <img src="./images/lines.png" alt="" class="lines2">
+    <div class="about-lines">
+        <img src="./assets/images/footer-icons/line without print.png" alt="" class="line-printed">
+        <img src="./assets/images/footer-icons/line with print.png" alt="" class="line-no-print">
+    </div> 
         </div>
-             <div class="portfolio-rect">
-                <img src="./assets/images/Rectangle245.png" alt="" class="portfolio-rect">
+             <div class="portfolio-rect  will-fadeIn">
+                <img src="./assets/images/Rectangle245.png" alt="" class="portfolio-rect1">
                      <div class="row">
                          <div class="col-lg-6">
                              <img src="./assets/images/1st image portfolio.png" alt="" class="portfolio-image1">
@@ -84,7 +102,8 @@
                                         <div class="portfolio-image1txt">
                                             <h2 class="project-name">Cater Care full website</h2>
                                         <p>Designing goal</p>
-                                    <p>To create a visually stunning and user-friendly website for an upscale and classy restaurant that showcases its menu, ambiance, and services, and provides a seamless online reservation and ordering experience for customers.</p>
+                                    <p class="port-txt">To create a visually stunning and user-friendly website for an upscale and classy restaurant that showcases its menu, ambiance, and services, and provides a seamless online reservation and ordering experience for customers.</p>
+                                    <button class="portfolio-button">View Project <img src="./assets/images/icons/Arrow.png" alt="" class="arrow-1"></button>
                                 </div>
                          </div>  
                     </div>        
@@ -92,14 +111,15 @@
                         
             </div>
 
-            <div class="portfolio-rect2">
+            <div class="portfolio-rect2  will-fadeIn">
                 <img src="./assets/images/Rectangle245.png" alt="" class="portfolio-rect">
                      <div class="row">
-                         <div class="col-lg-6">
+                         <div class="col-lg-6 text2">
                             <div class="portfolio-image2txt">
-                            <h2 class="project-name">Cater Care full website</h2>
+                            <h2 class="project-name">Cater Care mobile app</h2>
                             <p>Designing goal</p>
-                                <p>To create a visually stunning and user-friendly website for an upscale and classy restaurant that showcases its menu, ambiance, and services, and provides a seamless online reservation and ordering experience for customers.</p>
+                                <p class="p-txt-port">Designing a mobile food selection app that will let users access the restaurant  menus and place their orders  in advance through their mobile devices so that the order is ready when they actually arrive at the place.</p >
+                                <button class="portfolio-button">View Project <img src="./assets/images/icons/Arrow.png" alt="" class="arrow-1"></button>
                                 </div> 
                             </div>   
                                     <div class="col-lg-6">
@@ -109,7 +129,7 @@
                      
                     </div>        
                 </div> 
-                 <div class="portfolio-rect3">
+                <div class="portfolio-rect3  will-fadeIn">
                     <img src="./assets/images/Rectangle245.png" alt="" class="portfolio-rect">
                      <div class="row">
                          <div class="col-lg-6">
@@ -120,34 +140,46 @@
                                             <h2 class="project-name">Rinterio</h2>
                                         <p>Designing goal</p>
                                     <p>To create a visually stunning and user-friendly website for an upscale and classy restaurant that showcases its menu, ambiance, and services, and provides a seamless online reservation and ordering experience for customers.</p>
+                                      <button class="portfolio-button">View Project <img src="./assets/images/icons/Arrow.png" alt="" class="arrow-1"></button>
                                 </div>
-                         </div>  
-                    </div>        
-                </div>                    
+                                <button class="view-button">View More</button>
+                         </div>   
+                    </div>       
+                </div>              
             </div>
 </section>
 
+     <!--toolkit section-->
 
     <section class="toolkit-section">
-        <div class="all-toolkits">
-            <h2><span>MY</span> Toolkit</h2>
-            <div class="toolkits">
-             <img src="./assets/images/my tools/figma 2.png" alt="" class="tolkiticon1">
-             <img src="./assets/images/my tools/logos_adobe-xd 2.png" alt="" class="tolkiticon1">
-             <img src="./assets/images/my tools/Arthur 2.png" alt="" class="tolkiticon1">
-             <img src="./assets/images/my tools/logos_adobe-photoshop 2.png" alt="" class="tolkiticon1">
+        <div class="overlay">
+             <div class="all-toolkits">
+                <h2 class="toolkit-txt"><span class="my-kit">MY</span> Toolkit</h2>
+                 <div class="toolkits">
+                     <img src="./assets/images/my tools/figma 2.png" alt="" class="img-fluid tolkiticon2">
+                         <img src="./assets/images/my tools/logos_adobe-xd 2.png" alt="" class="tolkiticon1">
+                            <img src="./assets/images/my tools/Arthur 2.png" alt="" class="tolkiticon1">
+                     <img src="./assets/images/my tools/logos_adobe-photoshop 2.png" alt="" class="tolkiticon1">
+                 </div>
             </div>
         </div>
     </section>
 
-    <section class="footer">
+    <section class>
+
+
+    </section>
+
+ <!--footer section-->
+
+    <section class="footer" id="footer-me">
         <div class="row">
             <div class="col-lg-3">
                 <img src="./assets/images/MENU.png" alt="" class="img-fluid menu-logo">
                 <h5><li><a href="#">HOME</a></li></h5>
                 <h5><li><a href="#">ABOUT</a></li></h5>
                 <h5><li><a href="#">PORTFOLIO</a></li></h5>
-                <h5><li><a href="#">CONTACT</a></li></h5>
+                <h5><li><a href="#footer">CONTACT</a></li></h5>
             </div>
 
             <div class="col-lg-4">
@@ -161,21 +193,22 @@
                 </form>
             </div>
 
-            <div class="col-lg-5">
+            <div class="col-lg-5 contact-footer">
                 <img src="./assets/images/CONTACT DETAILS.png" alt="" class="img-fluid menu-logo">
-                <h6><li><a href="">Phone: +263777851147
+                <h6><li><a href=""><img src="./assets/images/footer-icons/Icon material-call copy 4.png" alt="" class="fon-icon"> Phone: +263777851147
                     </a></li></h6>
-                <h6><li><a href="">Emall: rosewitermvundura@gmail.com</a></li></h6>
+                <h6><li><a href=""><img src="./assets/images/footer-icons/Icon material-email 2.png" alt="" class="email-icon"> Emall: rosewitermvundura@gmail.com</a></li></h6>
                 <div class="social-ico">
-                    <img src="./assets/images/icons/Group 65.png" alt="" class="img-fluid">
-                    <img src="./assets/images/icons/Group 66.png" alt="" class="img-fluid">
-                    <img src="./assets/images/icons/Group 54.png" alt="" class="img-fluid">
+                    <img src="./assets/images/footer-icons/Group 67.png" alt="" class="img-fluid footer-icon">
+                    <img src="./assets/images/footer-icons/Group 68.png" alt="" class="img-fluid footer-icon">
+                    <img src="./assets/images/footer-icons/Group 69.png" alt="" class="img-fluid footer-icon">
                 </div>
             </div>
 
         </div>
-        <p>copyright©2023 designed by Rosewiter</p>
+  <!--       <p class="copyright-txt">copyright©2023 designed by Rosewiter</p> -->
     </section>
+  
 </body>
 <script src="./assets/js/bootstrap.js"></script>
 <script src="./assets/js/jquery-3.6.3.js"></script>

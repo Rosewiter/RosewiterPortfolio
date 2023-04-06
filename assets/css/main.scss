@@ -6,8 +6,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    padding: 120px;
-
+    margin-left: 5rem;
+    margin-top: 1rem;
 
     .brand-title{
         width: 110px;
@@ -15,25 +15,64 @@
 
     .toggle-button{
         position: absolute;
-        top: .75rem;
+        top: .60rem;
         right: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 30px;
         height: 21px;
+        margin-right: 6rem;
 
         .bar{
             height: 3px;
-            width: 100%;
+            width: 125%;
             background-color: #CD533B;
             border-radius: 10px;
         }
+
+        .bar-middle{
+            height: 3px;
+            width: 65%;
+            background-color: #CD533B;
+            border-radius: 10px;
+            transform: translateX(50%);
+        }
     }
+.home-icon{
+ width: 18px;
+ height: 18px;
+ position: relative;
+ right: 55px;
+}
+.port-icon{
+width: 18px;
+height: 18px;
+position: relative;
+right: 50px;    
+}
+.port-icon2{
+width: 18px;
+height: 18px;
+position: relative;
+right: 8px;    
+    }
+.contact-icon{
+width: 18px;
+ height: 18px;
+position: relative;
+right: 20px;    
+        } 
+.about-icon{
+ position: relative; 
+ 
+}        
 
 .navbar-links{
     display: none;
    width: 100%;
+   position: relative;
+    right: 40px;
 
    &.active{
     display: flex;
@@ -43,7 +82,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 20px;
+        gap: 30px;
         padding: 10px;
         li{
             list-style: none;
@@ -78,30 +117,37 @@ body{
 .bilboard-section{
     background-color: rgb(14, 14, 14);
     color: white;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 
     .uiux-img{
-    width: 800px;
+    width: 850px;
+    margin-bottom: 30px;
     }
+    .my-name{
+    font-size: 30px;    
+    }
+   
 
     span{
-        font-family: 'cumiskat_regular';
+        font-family: 'cumiskatregular';
         color: #CD533B;
     }
 
     p{
-        width: 56%;
+        width: 60%;
+        font-size: 18px;
     }
 }
 
 .aboutme-section{
     background-color: rgb(14, 14, 14);
     color: $txt-color;
-    padding: 120px;
+    padding: 100px;
 
     button{
         background-color: #f75a0b;
@@ -116,9 +162,12 @@ body{
     .aboutlines{
         margin-bottom: 70px;
     }
+    .about-txt-section{
+     padding-left: 90px;   
+    }
 
     p{
-        width: 79%;
+        width: 90%;
     }
 
     h2{
@@ -132,6 +181,13 @@ body{
 .portfolio-section{
     padding: 120px;
     background-color: rgb(14, 14, 14);
+
+    .portfolio-heading{
+        
+        .about-me-h3{
+            color: white;
+        }
+    }
 
     h4{
         color: white;
@@ -173,6 +229,9 @@ body{
     .main-header{
         margin-bottom: 10px;
     }
+.blooming{
+  width: 700px;  
+}
 
 .color-schemes{
     display: flex;
@@ -181,7 +240,7 @@ body{
     
     .rect1{
         background-color: orange;
-        width: 10px;
+        width: 100px;
         height: 40px;
         border: 1px solid black;
     }
@@ -400,6 +459,9 @@ hr{
            bottom: 430px;
            left: 100px;
          
+        }
+        .fon-icon{
+         width: 20px;   
         }
     
    }
