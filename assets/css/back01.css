@@ -3,6 +3,7 @@
     padding: 0;
     border-radius: border-box;
     scroll-behavior: smooth;
+  
 }
 
   .nav {
@@ -58,7 +59,7 @@
     flex-direction: column;
     height: auto;
     gap: 30px;
-    width: 180px; 
+    width: 200px; 
     height: auto;
     padding: 25px;
   }
@@ -66,6 +67,7 @@
     list-style: none;
     padding: 10px;
     border-bottom: 2px solid grey;
+    font-size: 20px;
   }
   .nav .navbar-links ul li a {
     color: white;
@@ -95,6 +97,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 180px;
     gap: 20px;
   }
   .bilboard-section .uiux-img {
@@ -165,6 +168,13 @@ left: 130px;
     margin-bottom: 60px;
     margin-left: 40px;
   }
+  .about-lines2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 65px;
+    margin-left: 40px;
+  }
   .aboutme-section .about-txt-section {
     padding-left: 90px;
   }
@@ -190,6 +200,7 @@ left: 130px;
   }
   .p-txt-port{
 width: 520px;
+
   }
 
   .about-me-h3{
@@ -217,23 +228,37 @@ width: 520px;
   }
   .toolkit-section{
 position: relative;
-bottom: 410px;
+bottom: 200px;
   }
 
   .portfolio-section .rect-all-orange .inside-image {
     position: absolute;
   }
-  
+  .design-solutions{
+    margin-bottom: 20px;
+  }
   .portfolio-bilboard {
     background-color: rgb(14, 14, 14);
     color: white;
-    padding: 120px;
+    padding: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .portfolio-h2 {
+position: relative;
+bottom: 20px;
+  }
+  .app-txt{
+position: relative;
+left: 35px;
+  }
+.bloom{
+
+width: 700px;
+}
   .portfolio-bilboard .bannerimg {
-    width: 700px;
+    width: 600px;
     margin-bottom: 120px;
   }
   .portfolio-bilboard p {
@@ -247,43 +272,42 @@ bottom: 410px;
   }
   .portfolio-bilboard .color-schemes {
     display: flex;
-    gap: 16px;
-    margin-bottom: 20px;
+    gap: 14px;
+    margin-bottom: 10px;
   }
   .portfolio-bilboard .color-schemes .rect1 {
     background-color: orange;
     width: 100px;
-    height: 40px;
+    height: 30px;
     border: 1px solid black;
   }
   .portfolio-bilboard .color-schemes .rect2 {
     background-color: #ffffff;
     width: 100px;
-    height: 40px;
+    height: 30px;
     border: 1px solid black;
   }
   .portfolio-bilboard .color-schemes .rect3 {
     background-color: black;
     width: 100px;
-    height: 40px;
+    height: 30px;
     border: 1px solid white;
   }
   .portfolio-bilboard .color-schemes .rect4 {
     background-color: #CD533B;
     width: 100px;
-    height: 40px;
-    border: 1px solid #ffffff;
+    height: 30px;
   }
   .portfolio-bilboard .color-schemes .rect5 {
     background-color: #ffffff;
     width: 100px;
-    height: 40px;
+    height: 30px;
     border: 1px solid black;
   }
   .portfolio-bilboard .color-schemes .rect6 {
     background-color: #435756;
     width: 100px;
-    height: 40px;
+    height: 30px;
     border: 1px solid black;
   }
   .portfolio-bilboard hr {
@@ -309,9 +333,14 @@ bottom: 410px;
     color: white;
   }
   .toolkit-section .toolkits .tolkiticon1 {
-    width: 90px;
-    height: 90px;
-    object-fit: fill;
+    width: 80px;
+    height: 80px;
+    object-fit:contain;
+  }
+  .toolkit-section .toolkits .tolkiticon3 {
+    width: 80px;
+    height: 80px;
+    object-fit:contain;
   }
   .toolkit-section .toolkits .tolkiticon2 {
     width: 85px;
@@ -323,16 +352,23 @@ bottom: 410px;
    gap: 160px;
     padding: 120px;
   }
+  .tookit-head-txt{
+    display: flex;
+    flex-direction: column;
+  }
+  .toolkit-lines{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+  }
   .footer {
-    padding: 120px;
-    height: 79vh;
+    padding: 70px;
+    height: 74vh;
     background-color: black;
     color: white;
-position: relative;
-bottom: 230px;
 
-
- 
   }
   .footer .social-ico {
     display: flex;
@@ -395,13 +431,64 @@ bottom: 230px;
   .contact-footer{
     padding-left: 90px;
   }
-  
+
+.portfolio .portfolio-rect1 .portfolio-image1txt a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 21px;
+  position: relative;
+  top: 30px;
+}
+.portfolio .portfolio-rect2 .portfolio-image2txt a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 21px;
+  position: relative;
+  top: 30px;
+}
+
+.portfolio .portfolio-rect2 .portfolio-image2txt a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 21px;
+  position: relative;
+  top: 30px;
+}
+.portfolio .portfolio-rect3 .portfolio-image1txt a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 21px;
+  position: relative;
+  top: 30px;
+}
+.portfolio .portfolio-rect3  a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 21px;
+  position: relative;
+  top: 30px;
+}
+.portinfo a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+  position: relative;
+  top: 30px;
+}
+
   /* kkks */
   .portfolio {
     display: flex;
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 150px;
     padding-left: 230px;
+    height:450vh;
 
   }
   .portfolio .portfolio-headtxt {
@@ -411,25 +498,26 @@ bottom: 230px;
   .portfolio .portfolio-rect {
     width: 90%;
     height: 550px;
-    padding-top: 30px;
+    padding-top: 10px;
   }
   .portfolio .portfolio-rect2 {
     width: 90%;
     height: 150%;
    position: relative;
-   top: 170px;
+    bottom: 150px;
 
   }
   .portfolio .portfolio-rect3 {
     width: 90%;
     height: 150%;
     position: relative;
-    bottom: 200px;
+    bottom: 440px;
   }
   .portfolio .portfolio-rect1{
     width: 90%;
-    height: 110%;
-    padding-top: 50px;
+    height: 120%;
+    position: relative;
+    top: 40px;
   }
   .portfolio .portfolio-image1 {
     width: 500px;
@@ -441,7 +529,7 @@ bottom: 230px;
   .portfolio .portfolio-image1txt {
     width: 440px;
     position: relative;
-    bottom: 350px;
+    bottom: 380px;
     right: 90px;
     color: white;
   }
@@ -452,9 +540,20 @@ bottom: 230px;
     left: 50px;
     color: white;
   }
+  .portfolio .portfolio-image3txt {
+    width: 400px;
+    position: relative;
+    bottom: 400px;
+    right: 90px;
+    color: white;
+  }
+  .toolkits{
+    display: flex;
+    gap: 34px;
+  }
   .portfolio .portfolio-heading {
     padding-left: 380px;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
   }
   .portfolio .lines2 {
     position: relative;
@@ -471,6 +570,13 @@ bottom: 230px;
     bottom: 450px;
     left: 100px;
   }
+  .portfolio .portfolio-image{
+    width:480px;
+    position: relative;
+    z-index: 1;
+    bottom: 440px;
+ right: 80px;
+  }
 
   .portfolio-button{
   background-color: rgb(14, 14, 14) ;
@@ -481,6 +587,7 @@ bottom: 230px;
   }
   .arrow-1{
     width: 30px;
+    
   }
   .portfolio .fon-icon {
     width: 20px;
@@ -497,7 +604,6 @@ bottom: 230px;
     display: block;
     position: absolute;
     top: 0;
-    left: -90px;
     margin-top: 25px;
    
     
@@ -511,7 +617,7 @@ bottom: 230px;
     width: 100%;
     margin: 20px auto;
     height: 250px;
-    
+  
     padding: 10px;
   }
 /*   .will-fadeIn:first-child {
@@ -732,10 +838,4 @@ bottom: 230px;
     }
   }
 
-  @media(max-width: 768px){
 
-
-
-
-  }
-  

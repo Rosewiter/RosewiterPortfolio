@@ -1,29 +1,64 @@
+
+/* media quiries for first page tablet*/
+
 @media (max-width: 768px){
-.billboard-rose{
-margin-left: 100px;
+.billboard{
+position: relative;
+right: 100px;
 }
 .my-name{
   width: 700px;
   position: relative;
   left: 30px;
 }
+ .bilboard-section span {
+ font-size: 20px;
+}
+.bilboard-section{
+height: 80vh;
+}
+.bilboard-section .uiux-img {
+  width: 630px;
+  margin-bottom: 30px;
+}
 .bilboard-section p{
   width: 500px;
   position: relative;
   left: 30px;
+  font-size: 20px;
 }
 .about-image{
 position: relative;
 bottom: 150px;
+width: 590px;
+left: 46px;
 }
 .aboutme-section p{
 width: 600px;
+position: relative;
+right: 50px;
+font-size: 20px;
 }
 .portfolio-heading{
 position: relative;
-right: 400px;
+right: 358px;
 bottom: 50px;
 }
+.portfolio .portfolio-image1txt{
+ position: relative;
+ left: -141px; 
+ top: -292px;
+}
+.portfolio .portfolio-image3txt{
+  position: relative;
+  left: -114px; 
+  top: -292px;
+ }
+.portfolio-image2.portfolio .portfolio-image3txt{
+  position: relative;
+  left: -59px; 
+  top: -292px;
+ }
 .uiux-img{
  width: 160px;  
  position: relative;
@@ -34,22 +69,60 @@ bottom: 50px;
 }
 .portfolio-image2txt{
 position: relative;
-top: 350px;
-margin-left: 50px;
+top: 418px;
+margin-left:3px;
 
+}
+.toolkit-section .toolkits .tolkiticon1{
+  width: 80px;
+}
+.toolkit-section .toolkits .tolkiticon2{
+  width: 50px;
+  position: relative;
+  left: 140px;
+}
+.toolkit-section .toolkits .tolkiticon3{
+  width: 70px;
+  position: relative;
+  left: 140px;
+}
+.toolkit-section .all-toolkits{
+  display: flex;
+gap: 85px;
+padding: 70px;
+
+}
+.toolkit-lines{
+  position: relative;
+  top: 84px;
+}
+.toolkit-txt{
+position: relative;
+top: 85px;
 }
 .portfolio .portfolio-image2{
   position: relative;
 bottom: 535px;
+left: -26px;
 
 }
 .portfolio .portfolio-rect2{
   position: relative;
-top: 390px;
+top: -146px;
+}
+.portfolio .portfolio-rect3{
+  position: relative;
+top: -156px;
 }
 .portfolio .portfolio-rect{
-  width: 500px;
-  height: 400px;
+  width: 448px;
+  height: 332px;
+position: relative;
+right: 80px;
+}
+.port-txt{
+  font-size: 20px;
+  width: 560px; 
 }
 
 .text2{
@@ -58,17 +131,353 @@ right: 190px;
 bottom: 130px;
 }
 .p-txt-port{
- width: 450px; 
+ width: 490px; 
+ font-size: 20px;
 }
 .toolkit-section .toolkits{
- gap: 2px; 
+ gap: 1px; 
+ display: flex;
+flex-direction: column;
+margin-left: 60px;
 }
 .toolkit-section{
- position: relative;
- bottom: 660px; 
+margin-bottom: 50px;
+
 }
 .footer{
- margin-bottom: 600px
- ; 
+ 
+ height: 146vh;
+}
+.menu-footer{
+  display: none;
+}
+.contact-footer{
+margin-top: 50px;
+position: relative;
+right: 70px;
+
+}
+.footer .menu-logo{
+margin-top: 40px;
+}
+.portfolio{
+  height: 350vh;
+}
+.portfolio .portfolio-rect1 .portfolio-image1txt{
+  position: relative; 
+  top: -306px; 
+  }
+}
+
+
+
+
+
+/* media quiries for second page tablet*/
+
+@media (min-width: 768px)and (max-device-width:1024px){
+
+  .portinfo{
+   position: relative; 
+   top: 87px;
+   left: 40px;
+  }
+  .design-solutions{
+    position: relative;
+    top: 5px;
+  }
+  .portfolio-bilboard p {
+    width: 495px;
+  }
+  .app-txt{
+    position: relative;
+    bottom: 35px;
+  }
+  .rinterio-txt{
+    position: relative;
+    top: 55px;
+    left: 40px;
+  }
+  .bloomingtxt{
+    position: relative;
+    top: 45px;
+    left: 40px;
+  }
+  .footer{
+    margin-bottom: 146px
+    ; 
+  
+  }
+  .menu-footer{
+    display: none;
+  }
+  .copyright-txt{
+    position: relative;
+    top: 78px;
+  }
+  }
+
+/* media quiries for first page fon*/
+
+@media (max-width: 576px){
+  
+  .logo{
+  width: 100px;
+  position: relative;
+  bottom: 15px;
+  }
+  .toggle-button{
+    width: 25px;
+    transform: translate(95px);
+  }
+  .billboard{
+    position: relative;
+    width: 360px;
+    }
+    .my-name{
+      width: 700px;
+      position: relative;
+      left: 30px;
+      font-size: 20px;
+    }
+     .bilboard-section span {
+     font-size: 10px;
+    }  .bilboard-section .my-name {
+      font-size: 20px;
+      width: fit-content;
+  
+     }
+  
+     .about-lines{
+      position: relative;
+      right: 77px;
+     }
+     .about-lines2{
+position: relative;
+right: 174px;
+     }
+    .bilboard-section{
+    height: 80vh;
+    transform: translate(61px);
+    }
+    .bilboard-section .uiux-img {
+      width: 309px;
+      margin-bottom: 30px;
+    }
+    .bilboard-section p{
+      width: 317px;
+      position: relative;
+      left: 30px;
+      font-size: 16px;
+     
+    }
+.abt{
+  transform: translate(61px); 
+}
+    .about-image{
+    position: relative;
+    bottom: 150px;
+    width: 790px;
+    left: 4px;
+    transform: translate(61px);
+  
+    }
+    .aboutme-section h2{
+      width: 200px;
+      position: relative;
+      right: 60px;
+      font-size: 40px;
+    }
+  
+    .aboutme-section p{
+    width: 282px;
+    position: relative;
+    right: 110px;
+    font-size: 17px;
+    transform: translate(61px);
+  
+    }
+    .aboutme-section button {
+    position: relative; 
+    right: 54px; 
+    }
+    .portfolio-heading{
+    position: relative;
+    right: 358px;
+    bottom: 50px;
+    transform: translate(61px);
+    }
+    .portfolio .portfolio-image1txt{
+     position: relative;
+     left:-67px; 
+    bottom: 40px;
+     width: 100px;
+     transform: translate(61px);
+    }
+    .portfolio .portfolio-image3txt{
+      position: relative;
+      left: -167px; 
+      top: -176px;
+      width: 100px;
+      transform: translate(61px);
+     }
+     .portfolio .portfolio-image2txt{
+      display: none;
+     }
+     .portfolio .portfolio-image1 {
+      width: 270px;
+      position: relative;
+      top: -341px;
+      left: -198px;
+      transform: translate(61px);
+     }
+     .portfolio-rect1{
+      position: relative;
+      right:143px;
+      bottom:134px;
+     }
+     
+
+.portfolio .portfolio-image {
+    width: 302px;
+    position: relative;
+    z-index: 1;
+    bottom: -408px;
+    right: 72px;
+    transform: translate(61px);
+}
+    .uiux-img{
+     width: 160px;  
+     position: relative;
+     left: 30px;
+    }
+    .about-me-h3{
+      width: 266px;
+      position: relative;
+      right: 194px;
+    font-size: 40px;
+    }
+ 
+
+    .portfolio .portfolio-image2{
+      position: relative;
+    bottom: 535px;
+    left: -216px;
+  display: none;
+   
+    }
+
+.portfolio .project-name{
+  width: 249px;
+}
+.designing-goal {
+  width: 100px;
+}
+    .portfolio .portfolio-rect2{
+      position: relative;
+    top: 490px;
+    width: 100px;
+    }
+    .portfolio .portfolio-rect3{
+      position: relative;
+    top: 450px;
+    }
+    .portfolio .portfolio-rect{
+      width: 365px;
+      height: 262px;
+    position: relative;
+    right: 209px;
+    display: none;
+    }
+   .port-txt{
+      font-size: 20px;
+      width: 311px; 
+      position: relative;
+      top: 11px;
+    } 
+    .designing-goal{
+      position: relative;
+      top: 40px;
+    } 
+    .portfolio{
+      height: 200vh;
+      margin-bottom: 1400px;
+    
+    }
+    
+    .text2{
+    position: relative;
+    right: 260px;
+    bottom: 844px;
+    width: 100px;
+    }
+    .p-txt-port{
+     width: 289px; 
+     font-size: 20px;
+    }
+
+    .view-button{
+     display: none;
+    }
+
+  }
+
+
+
+/* media quiries for second page fon*/
+
+@media (max-width: 576px){
+ .bannerimg{
+ width: 800px;
+display: none;
+  }
+.img1port{
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  right: 10px;
+}
+.img1port2{
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  right: 10px;
+  top: 80px;
+}
+.portinfo{
+  position: relative;
+  top: 95px;
+}
+.portfolio-h2{
+  width: 300px;
+}
+.renterio-img{
+  position: relative;
+  bottom: 70px;
+  max-width: 100%;
+}
+.rinterio-txt{
+  position: relative;
+  left: 30px;
+  max-width: 100%;
+}
+.portfolio-bilboard hr{
+  width: 390%;
+}
+.portfolio-bilboard .blooming {
+position: relative;
+top: 50px;
+}
+.bloom{
+  max-width: 100%; 
+  position: relative;
+  bottom: 70px;
+right: 20px;
+}
+.app-txt{
+margin-right: 3px;
+}
+.footer{
+  height: 40vh;
 }
 }
