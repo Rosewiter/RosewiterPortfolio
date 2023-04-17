@@ -185,6 +185,8 @@ left: 130px;
   .about-image{
    position: relative;
    left: 50px;
+   width: 100%;
+  object-fit: fill;
   }
   .aboutme-section h2 {
     font-size: 55px;

@@ -222,29 +222,34 @@ margin-top: 40px;
 @media (max-width: 576px){
   
   .logo{
-  width: 100px;
+  width: 116px;
   position: relative;
   bottom: 15px;
   }
   .toggle-button{
     width: 25px;
-    transform: translate(95px);
+    transform: translate(282px);
   }
   .billboard{
     position: relative;
     width: 360px;
+    top: 30px;
     }
     .my-name{
-      width: 700px;
+      width: 900px;
       position: relative;
       left: 30px;
       font-size: 20px;
     }
      .bilboard-section span {
-     font-size: 10px;
+     font-size: 18px;
+   width: 80px;
     }  .bilboard-section .my-name {
-      font-size: 20px;
-      width: fit-content;
+      font-size: 25px;
+      width:520px;
+      position: relative;
+      right: 20px;
+      transform: translate(-31px);
   
      }
   
@@ -258,94 +263,105 @@ right: 174px;
      }
     .bilboard-section{
     height: 80vh;
-    transform: translate(61px);
+    transform: translate(45px);
     }
     .bilboard-section .uiux-img {
-      width: 309px;
-      margin-bottom: 30px;
+      width: 612px;
+      margin-bottom: 29px;
+     position: relative;
+     right: 20px;
+     transform: translate(-31px);
     }
     .bilboard-section p{
-      width: 317px;
+      width: 550px;
       position: relative;
-      left: 30px;
-      font-size: 16px;
+      left: 1px;
+      top: 8px;
+      font-size: 19px;
      
     }
 .abt{
-  transform: translate(61px); 
+  transform: translate(155px); 
 }
     .about-image{
     position: relative;
-    bottom: 150px;
-    width: 790px;
-    left: 4px;
-    transform: translate(61px);
+    bottom: 87px;
+    left: 9px;
+    transform: translate(8px);
   
     }
     .aboutme-section h2{
-      width: 200px;
+      width: 332px;
       position: relative;
-      right: 60px;
-      font-size: 40px;
+      right: 74px;
+      font-size: 50px;
     }
   
     .aboutme-section p{
-    width: 282px;
+    width: 653px;
     position: relative;
     right: 110px;
-    font-size: 17px;
-    transform: translate(61px);
+    font-size: 19px;
+    transform: translate(16px);
   
     }
     .aboutme-section button {
     position: relative; 
-    right: 54px; 
+    right: -125px; 
+    top: 20px;
     }
     .portfolio-heading{
     position: relative;
-    right: 358px;
+    right: 313px;
     bottom: 50px;
-    transform: translate(61px);
+    transform: translate(109px);
     }
-    .portfolio .portfolio-image1txt{
-     position: relative;
-     left:-67px; 
-    bottom: 40px;
-     width: 100px;
-     transform: translate(61px);
+
+      .portfolio .portfolio-rect1 .portfolio-image1txt a {
+        color: #ffffff;
+        text-decoration: none;
+        list-style: none;
+        font-size: 21px;
+        position: relative;
+        top: 30px;
     }
-    .portfolio .portfolio-image3txt{
-      position: relative;
-      left: -167px; 
-      top: -176px;
-      width: 100px;
-      transform: translate(61px);
-     }
+   
+
+.portfolio .portfolio-image3txt {
+    position: relative;
+    left: -128px;
+    top: -612px;
+    width: 100px;
+    transform: translate(-35px);
+}
      .portfolio .portfolio-image2txt{
       display: none;
      }
-     .portfolio .portfolio-image1 {
-      width: 270px;
-      position: relative;
-      top: -341px;
-      left: -198px;
-      transform: translate(61px);
-     }
+   .portfolio .portfolio-image1 {
+    width: 504px;
+    position: relative;
+    top: -661px;
+    left: -241px;
+    transform: translate(61px);
+}
      .portfolio-rect1{
       position: relative;
       right:143px;
       bottom:134px;
      }
      
-
 .portfolio .portfolio-image {
-    width: 302px;
+    width: 550px;
     position: relative;
     z-index: 1;
-    bottom: -408px;
-    right: 72px;
-    transform: translate(61px);
+    bottom: 57px;
+    right: 93px;
+    transform: translate(61px);}
+.portfolio .portfolio-image1txt {
+padding-top: 306px;
+    transform: translate(120px);
 }
+    
     .uiux-img{
      width: 160px;  
      position: relative;
@@ -355,7 +371,7 @@ right: 174px;
       width: 266px;
       position: relative;
       right: 194px;
-    font-size: 40px;
+    font-size: 50px;
     }
  
 
@@ -368,10 +384,12 @@ right: 174px;
     }
 
 .portfolio .project-name{
-  width: 249px;
+  width: 530px;
+  font-size: 30px;
 }
-.designing-goal {
-  width: 100px;
+.design-goal {
+  width: 160px;
+  font-size: 20px;
 }
     .portfolio .portfolio-rect2{
       position: relative;
@@ -391,7 +409,7 @@ right: 174px;
     }
    .port-txt{
       font-size: 20px;
-      width: 311px; 
+      width: 590px; 
       position: relative;
       top: 11px;
     } 
@@ -436,6 +454,11 @@ display: none;
   object-fit: cover;
   position: relative;
   right: 10px;
+}
+.toggle-button{
+  position: relative;
+  right: 3;
+  transform: translate(-29px); 
 }
 .img1port2{
   max-width: 100%;
